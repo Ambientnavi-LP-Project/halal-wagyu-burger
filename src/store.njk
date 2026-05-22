@@ -172,7 +172,7 @@ permalink: "/{{ store.region }}/{{ store.slug }}/index.html"
         <a href="{{ store.maps_link }}" target="_blank" rel="noopener" class="btn-primary">
           Get Directions
         </a>
-        {% if store.tablecheck_url %}<a href="{{ store.tablecheck_url }}" target="_blank" rel="noopener" class="btn-secondary" style="color:#f5ede0; border-color:rgba(245,237,224,.35);">
+        {% if store.tablecheck_url %}<a href="{{ store.tablecheck_url }}?utm_source=lp&utm_medium=referral" target="_blank" rel="noopener" class="btn-secondary" style="color:#f5ede0; border-color:rgba(245,237,224,.35);">
           Reserve a Table
         </a>{% endif %}
       </div>
@@ -442,7 +442,7 @@ permalink: "/{{ store.region }}/{{ store.slug }}/index.html"
         <a href="{{ store.maps_link }}" target="_blank" rel="noopener" class="btn-primary">
           Get Directions
         </a>
-        {% if store.tablecheck_url %}<a href="{{ store.tablecheck_url }}" target="_blank" rel="noopener" class="btn-secondary">
+        {% if store.tablecheck_url %}<a href="{{ store.tablecheck_url }}?utm_source=lp&utm_medium=referral" target="_blank" rel="noopener" class="btn-secondary">
           Reserve a Table
         </a>{% endif %}
       </div>
@@ -456,7 +456,7 @@ permalink: "/{{ store.region }}/{{ store.slug }}/index.html"
     <p style="font-size:10px; color:rgba(245,237,224,.32); letter-spacing:.28em; margin-bottom:22px;">EST. 1962 &nbsp;·&nbsp; 5TH GEN. BUTCHER</p>
     <div style="display:flex; justify-content:center; gap:28px;">
       <a href="{{ store.instagram_url }}" target="_blank" rel="noopener" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;">INSTAGRAM</a>
-      {% if store.tablecheck_url %}<a href="{{ store.tablecheck_url }}" target="_blank" rel="noopener" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;">RESERVATION</a>{% endif %}
+      {% if store.tablecheck_url %}<a href="{{ store.tablecheck_url }}?utm_source=lp&utm_medium=referral" target="_blank" rel="noopener" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;">RESERVATION</a>{% endif %}
       <a href="{{ store.maps_link }}" target="_blank" rel="noopener" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;">MAPS</a>
     </div>
   </footer>
